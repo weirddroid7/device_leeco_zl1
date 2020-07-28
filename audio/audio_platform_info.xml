@@ -28,10 +28,8 @@
     <acdb_ids>
         <!-- Output devices -->
         <device name="SND_DEVICE_OUT_HANDSET" acdb_id="7"/>
-        <device name="SND_DEVICE_OUT_SPEAKER" acdb_id="15"/> <!-- Original: 14 -->
+        <device name="SND_DEVICE_OUT_SPEAKER" acdb_id="14"/>
         <!-- <device name="SND_DEVICE_OUT_SPEAKER_STEREO" acdb_id="15"/> -->
-        <!-- <device name="SND_DEVICE_OUT_SPEAKER_STEREO_L" acdb_id="15"/> -->
-        <!-- <device name="SND_DEVICE_OUT_SPEAKER_STEREO_R" acdb_id="15"/> -->
         <!-- <device name="SND_DEVICE_OUT_SPEAKER_EXTERNAL_1" acdb_id="130"/> -->
         <!-- <device name="SND_DEVICE_OUT_SPEAKER_EXTERNAL_2" acdb_id="130"/> -->
         <device name="SND_DEVICE_OUT_SPEAKER_VBAT" acdb_id="14"/>
@@ -52,12 +50,12 @@
         <!-- <device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES_EXTERNAL_1" acdb_id="130"/> -->
         <!-- <device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES_EXTERNAL_2" acdb_id="130"/> -->
         <device name="SND_DEVICE_OUT_VOICE_HANDSET" acdb_id="7"/>
-        <device name="SND_DEVICE_OUT_VOICE_SPEAKER" acdb_id="220"/> <!-- Original: 14 -->
-        <!-- <device name="SND_DEVICE_OUT_VOICE_SPEAKER_NB" acdb_id="14"/> -->
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER" acdb_id="14"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_NB" acdb_id="14"/>
         <!-- <device name="SND_DEVICE_OUT_VOICE_SPEAKER_WB" acdb_id="14"/> -->
-        <!-- <device name="SND_DEVICE_OUT_VOICE_SPEAKER_STEREO" acdb_id="220"/> -->
-        <!-- <device name="SND_DEVICE_OUT_VOICE_SPEAKER_STEREO_NB" acdb_id="220"/> -->
-        <!-- <device name="SND_DEVICE_OUT_VOICE_SPEAKER_STEREO_WB" acdb_id="220"/> -->
+        <!-- <device name="SND_DEVICE_OUT_VOICE_SPEAKER_STEREO" acdb_id="15"/> -->
+        <!-- <device name="SND_DEVICE_OUT_VOICE_SPEAKER_STEREO_NB" acdb_id="15"/> -->
+        <!-- <device name="SND_DEVICE_OUT_VOICE_SPEAKER_STEREO_WB" acdb_id="15"/> -->
         <!-- <device name="SND_DEVICE_OUT_VOICE_SPEAKER_BRIGHTNESS" acdb_id="140"/> -->
         <!-- <device name="SND_DEVICE_OUT_VOICE_SPEAKER_STEREO_BRIGHTNESS" acdb_id="141"/> -->
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_VBAT" acdb_id="14"/>
@@ -110,11 +108,10 @@
         <device name="SND_DEVICE_IN_HEADSET_BACKMIC" acdb_id="8"/> <!-- Original: 116 -->
         <device name="SND_DEVICE_IN_HEADSET_MIC_FLUENCE" acdb_id="117"/>
         <device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC" acdb_id="42"/> <!-- Original: 8 -->
-        <!-- <device name="SND_DEVICE_IN_VOICE_SPEAKER_STEREO_MIC" acdb_id="8"/> -->
+        <!-- <device name="SND_DEVICE_IN_VOICE_SPEAKER_STEREO_MIC" acdb_id="47"/> -->
         <device name="SND_DEVICE_IN_VOICE_HEADSET_MIC" acdb_id="8"/> <!-- Original: 47 -->
-        <!-- <device name="SND_DEVICE_IN_VOICE_HEADPHONE_MIC" acdb_id="42"/> -->
         <!-- <device name="SND_DEVICE_IN_VOICE_HEADSET_BACKMIC" acdb_id="42"/> -->
-        <device name="SND_DEVICE_IN_HDMI_MIC" acdb_id="8"/>
+        <device name="SND_DEVICE_IN_HDMI_MIC" acdb_id="19"/>
         <device name="SND_DEVICE_IN_BT_SCO_MIC" acdb_id="21"/>  <!-- Original: 8 -->
         <device name="SND_DEVICE_IN_BT_SCO_MIC_NREC" acdb_id="122"/> <!-- Original: 8 -->
         <device name="SND_DEVICE_IN_BT_SCO_MIC_WB" acdb_id="38"/> <!-- Original: 4 -->
@@ -134,20 +131,19 @@
         <device name="SND_DEVICE_IN_USB_HEADSET_MIC" acdb_id="52"/>
         <device name="SND_DEVICE_IN_CAPTURE_FM" acdb_id="34"/>
         <device name="SND_DEVICE_IN_AANC_HANDSET_MIC" acdb_id="41"/>
-        <device name="SND_DEVICE_IN_VOICE_FLUENCE_DMIC_AANC" acdb_id="44"/>
         <device name="SND_DEVICE_IN_QUAD_MIC" acdb_id="44"/>
-        <device name="SND_DEVICE_IN_HANDSET_STEREO_DMIC" acdb_id="34"/> <!-- Original: 0 -->
-        <device name="SND_DEVICE_IN_SPEAKER_STEREO_DMIC" acdb_id="105"/>
-        <device name="SND_DEVICE_IN_CAPTURE_VI_FEEDBACK" acdb_id="46"/>
-        <device name="SND_DEVICE_IN_VOICE_SPEAKER_DMIC_BROADSIDE" acdb_id="51"/>
-        <device name="SND_DEVICE_IN_SPEAKER_DMIC_BROADSIDE" acdb_id="54"/>
-        <device name="SND_DEVICE_IN_SPEAKER_DMIC_AEC_BROADSIDE" acdb_id="102"/>
-        <device name="SND_DEVICE_IN_SPEAKER_DMIC_NS_BROADSIDE" acdb_id="12"/>
+        <device name="SND_DEVICE_IN_HANDSET_STEREO_DMIC" acdb_id="34"/> <!-- Original: 44 -->
+        <!-- <device name="SND_DEVICE_IN_SPEAKER_STEREO_DMIC" acdb_id="0"/> -->
+        <device name="SND_DEVICE_IN_CAPTURE_VI_FEEDBACK" acdb_id="105"/>
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_DMIC_BROADSIDE" acdb_id="46"/>
+        <device name="SND_DEVICE_IN_SPEAKER_DMIC_BROADSIDE" acdb_id="51"/>
+        <device name="SND_DEVICE_IN_SPEAKER_DMIC_AEC_BROADSIDE" acdb_id="54"/>
+        <device name="SND_DEVICE_IN_SPEAKER_DMIC_NS_BROADSIDE" acdb_id="102"/>
         <device name="SND_DEVICE_IN_SPEAKER_DMIC_AEC_NS_BROADSIDE" acdb_id="12"/>
-        <device name="SND_DEVICE_IN_HANDSET_QMIC" acdb_id="119"/>
-        <device name="SND_DEVICE_IN_SPEAKER_QMIC_AEC" acdb_id="121"/>
-        <device name="SND_DEVICE_IN_SPEAKER_QMIC_NS" acdb_id="120"/>
-        <device name="SND_DEVICE_IN_SPEAKER_QMIC_AEC_NS" acdb_id="105"/>
+        <device name="SND_DEVICE_IN_HANDSET_QMIC" acdb_id="12"/>
+        <device name="SND_DEVICE_IN_SPEAKER_QMIC_AEC" acdb_id="119"/>
+        <device name="SND_DEVICE_IN_SPEAKER_QMIC_NS" acdb_id="121"/>
+        <device name="SND_DEVICE_IN_SPEAKER_QMIC_AEC_NS" acdb_id="120"/>
         <!-- <device name="SND_DEVICE_IN_TEST_MAIN_MIC" acdb_id="125"/> -->
         <!-- <device name="SND_DEVICE_IN_TEST_RECEIVER_MIC" acdb_id="126"/> -->
         <!-- <device name="SND_DEVICE_IN_TEST_BACK_MIC" acdb_id="127"/> -->
@@ -164,19 +160,18 @@
     </bit_width_configs>
 
     <backend_names>
-        <device name="SND_DEVICE_OUT_HANDSET" backend="smartpa-handset" />
-        <device name="SND_DEVICE_OUT_SPEAKER" backend="smartpa" />
-        <device name="SND_DEVICE_OUT_VOICE_HANDSET" backend="smartpa-handset" />
-        <device name="SND_DEVICE_OUT_VOICE_SPEAKER" backend="smartpa" />
+        <device name="SND_DEVICE_OUT_SPEAKER" backend="smartpa"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER" backend="smartpa"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_AND_HDMI" backend="smartpa-and-hdmi" />
         <device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES" backend="smartpa-and-headphones" />
         <device name="SND_DEVICE_OUT_SPEAKER_AND_USB_HEADSET" backend="smartpa-and-usb-headphones" />
-        <device name="SND_DEVICE_OUT_SPEAKER_AND_HDMI" backend="smartpa-and-hdmi" />
+        <device name="SND_DEVICE_OUT_SPEAKER_AND_BT_SCO" backend="speaker-and-bt-sco" interface="TERT_MI2S_RX-and-AUX_PCM_RX"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_AND_BT_SCO_WB" backend="speaker-and-bt-sco-wb" interface="TERT_MI2S_RX-and-AUX_PCM_RX"/>
     </backend_names>
 
     <device_names>
-        <!-- Output devices -->
-        <device name="SND_DEVICE_OUT_SPEAKER" alias="speaker-stereo" />
-        <device name="SND_DEVICE_OUT_VOICE_SPEAKER" alias="voice-speaker-stereo" />
+        <!-- Input devices -->
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_DMIC" alias="voice-speaker-mic"/>
     </device_names>
 
     <config_params>
